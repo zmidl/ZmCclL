@@ -1,0 +1,10 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:waiting="clr-namespace:ZmCclL.Controls.Waiting">
+    <Style x:Key="WaitingBaseStyle" TargetType="waiting:WaitingBase">
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="DotDiameter" Value="10"/>
+        <Setter Property="Foreground" Value="Blue"/>
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,27 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:waiting="clr-namespace:ZmCclL.Controls.Waiting">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="WaitingBase.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style x:Key="WaitingLineBaseStyle" BasedOn="{StaticResource WaitingBaseStyle}" TargetType="waiting:WaitingLine">
+        <Setter Property="DotDiameter" Value="5"/>
+    </Style>
+
+    <Style BasedOn="{StaticResource LoadingLineBaseStyle}" TargetType="waiting:WaitingLine"/>
+
+    <Style x:Key="WaitingLineLight" BasedOn="{StaticResource LoadingLineBaseStyle}" TargetType="waiting:WaitingLine">
+        <Setter Property="Foreground" Value="{DynamicResource TextIconBrush}"/>
+    </Style>
+
+    <Style x:Key="WaitingLineLarge" BasedOn="{StaticResource LoadingLineBaseStyle}" TargetType="waiting:WaitingLine">
+        <Setter Property="DotDiameter" Value="10"/>
+    </Style>
+
+    <Style x:Key="WaitingLineLargeLight" BasedOn="{StaticResource LoadingLineLarge}" TargetType="waiting:WaitingLine">
+        <Setter Property="Foreground" Value="{DynamicResource TextIconBrush}"/>
+    </Style>
+
+</ResourceDictionary>
