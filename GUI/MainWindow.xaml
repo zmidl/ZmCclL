@@ -9,7 +9,7 @@
     xmlns:zmccl="clr-namespace:ZmCclL.Controls.Waiting;assembly=ZmCclL"
     Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <zmccl:WaitingCircle DotDelayTime="100" DotOffSet="50" DotSpeed="5" DotCount="6" Width="80" Height="80"/>
+        <zmccl:WaitingCircle DotDelayTime="100" DotInterval="18" DotOffSet="50" DotSpeed="5" DotCount="5" Width="40" Height="40"/>
         <zmccl:WaitingLine/>
     </StackPanel>
 </Window>

@@ -11,10 +11,11 @@
         <Setter Property="Height" Value="40"/>
         <Setter Property="DotDiameter" Value="5"/>
         <Setter Property="DotInterval" Value="30"/>
-        <Setter Property="DotOffSet" Value="60"/>
-        <Setter Property="DotDelayTime" Value="90"/>
+        <Setter Property="DotOffSet" Value="50"/>
+        <Setter Property="DotDelayTime" Value="100"/>
         <Setter Property="DotSpeed" Value="4"/>
+        <Setter Property="DotCount" Value="6"/>
     </Style>
-
+ <!--DotDelayTime="100" DotOffSet="50" DotSpeed="5" DotCount="6" Width="80" Height="80"-->
     <Style BasedOn="{StaticResource WaitingCircleBaseStyle}" TargetType="waiting:WaitingCircle"/>
 </ResourceDictionary>
